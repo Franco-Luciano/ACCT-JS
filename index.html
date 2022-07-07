@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Js Calculator</title>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</head>
+<body>
+    <h1>JS Calculator</h1>
+    <h6>By Franco</h6>
+    <div class="calculator">
+        <div class="output">
+          <input type="text" id="d" readonly><button onclick="c('')">CLEAR</button>
+        </div>
+        <div class="button-grp">
+          <div class="button-grp1">
+            <button onclick="v('7')">7</button>
+            <button onclick="v('8')">8</button>
+            <button onclick="v('9')">9</button>
+            <button onclick="v('4')">4</button>
+            <button onclick="v('5')">5</button>
+            <button onclick="v('6')">6</button>
+            <button onclick="v('1')">1</button>
+            <button onclick="v('2')">2</button>
+            <button onclick="v('3')">3</button>
+            <button onclick="v('.')"><b style="font-weight:900;">.</b></button>
+            <button onclick="v('0')">0</button>
+            <button onclick="e()">=</button>
+          </div>
+          <div class="button-grp2">
+            <button onclick="v(' + ')">+</button>
+            <button onclick="v(' - ')">-</button>
+            <button onclick="v(' * ')">*</button>
+            <button onclick="v(' / ')">/</button>
+          </div>  
+        </div>
+      </div>
+</html>

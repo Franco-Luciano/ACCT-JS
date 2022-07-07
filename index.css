@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+.calculator {
+    width:500px; background: rgb(0, 0, 0);
+    border:10px solid rgb(102, 102, 102); 
+    padding:20px; display:inline-block;
+}
+
+.output #d {
+    width:56%; margin:0 auto; 
+    background:rgb(138, 138, 138); 
+    margin:20px; color:rgb(255, 255, 255); 
+    padding:20px; 
+    font-size:20px;
+}
+
+.output button {
+    padding:20px 30px;
+    background-color: antiquewhite;
+}
+
+.button-grp {
+    width:90%;
+    margin:0 auto;
+}
+
+.button-grp1 {
+    float:left;
+    width:75%;
+}
+
+.button-grp2 {
+    float:left;
+    width:25%;
+}
+
+.button-grp button {
+    padding:20px 35px; 
+    margin:10px;
+}
+
+button {
+    transform: scale(1);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1000px){
+    body {
+        text-align: center;
+        background-color: rgb(41, 41, 28);
+        color: aliceblue;
+    }
+}
